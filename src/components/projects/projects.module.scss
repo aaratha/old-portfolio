@@ -1,0 +1,116 @@
+.root {
+  background-color: #000000;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+.Gallery {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: auto;
+  align-content: center;
+}
+
+.ProjectsLabel {
+  font-family: Lucida Console, monospace;
+  padding: 100px;
+  margin: 10px;
+}
+.projButtons {
+  margin: 0 auto !important;
+  position: sticky;
+  overflow: auto;
+  display: inline-block;
+  color: #fdfdfd;
+  background-color: #000000;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 100%;
+  border: 1px solid #ffffff;
+  background-image: none;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  flex-grow: 2;
+  margin: 0px;
+  padding: 6px;
+  transition-duration: 0.2s;
+  width: 100% !important;
+  min-width: 33% !important;
+  &:hover {
+    //padding: 10px 6px 6px;
+    padding: 10px;
+    font-weight: 300;
+    border: 1px solid #00a2ff;
+    transition-duration: 0.2s;
+  }
+  font-family: Lucida Console, monospace;
+}
+
+.projButtons.active {
+  /* styles for the button in the "hovered" state */
+  padding: 10px;
+  font-weight: 300;
+  border: 1px solid #00a2ff;
+  transition-duration: 0.2s;
+}
+
+.button_array {
+  margin: 0 auto;
+  display: flex;
+  width: 49.7%;
+  min-width: 400px;
+  height: 0vh;
+  padding: 0vh;
+  align-self: stretch;
+  text-align: center;
+  position: sticky;
+  align-items: end;
+  //justify-content: space-between;
+  align-content: space-between;
+}
+.lines {
+  background-color: #bb7575;
+  border-radius: 3px;
+}
+.iframe {
+  margin: 0 auto;
+  position: relative;
+  width: 99%;
+  aspect-ratio: 2.35 / 1;
+}
+
+.iframe2 {
+  margin: 0 auto;
+  position: relative;
+  width: 99%;
+  aspect-ratio: 4 / 3;
+}
+
+.projectPane {
+  animation-name: drop !important;
+  animation-duration: 1s !important;
+  animation-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035) !important;
+  margin: 0 auto;
+  padding: 1% 0vh 0.8% 0vh;
+  width: 49.6%;
+  min-width: 398px;
+  overflow: auto;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  display: inline-block;
+}
+
+@keyframes drop {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
