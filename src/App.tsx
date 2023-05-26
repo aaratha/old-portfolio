@@ -13,9 +13,9 @@ import { Contact } from './components/contact/contact';
 function App() {
     return (
         <MemoryRouter>
-            <div className='flex flex-row gradbg'>
+            <div className='flex flex-row'>
                 <Sidebar />
-                <div className='flex w-[85%] border border-white border-double'>
+                <div className='inshad flex w-[85%] gradbg'>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/projects/*" element={<Projects />} />

@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      'mono': ['Lucida Console'],
       'sans': ['ariel'],
       'serif': ['Georgia'],
-      'mono': ['Lucida Console'],
     }
   },
   plugins: [],
