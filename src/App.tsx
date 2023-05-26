@@ -1,22 +1,18 @@
-import styles from './App.module.scss';
-import { Navigation } from './components/navigation/navigation';
-import Navigation_module from './components/navigation/navigation.module.scss';
 import { Routes, Route, MemoryRouter, Router, BrowserRouter } from 'react-router-dom';
-import { Projects } from './components/projects/projects';
 import { Home } from './components/home';
 import { Sidebar } from './components/sidebar';
 import { ProjectsWeb } from './components/projects-web/projects-web';
 import { ProjectsVis } from './components/projects-vis/projects-vis';
 import { Contact } from './components/contact';
-import svg from './Vector 1.svg'
+import { Projects } from './components/projects';
 
 
 function App() {
     return (
         <MemoryRouter>
-            <div className='flex flex-row'>
+            <div className='flex flex-col md:flex-row'>
                 <Sidebar />
-                <div className='inshad flex w-[85%] bg-white body'>
+                <div className='inshad flex md:w-[85%] h-[88vh] md:h-screen bg-white body'>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/projects/*" element={<Projects />} />

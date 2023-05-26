@@ -1,4 +1,4 @@
-import { Videos } from '../videos/videos';
+import { Videos } from '../videos/videosOLD';
 import { ProjectsVis } from '../projects-vis/projects-vis';
 import { ProjectsWeb } from '../projects-web/projects-web';
 import styles from './projects.module.scss';

@@ -6,7 +6,7 @@ import { Projects } from '../projects/projects';
 import { Home } from '../home';
 import { ProjectsVis } from '../projects-vis/projects-vis';
 import { ProjectsWeb } from '../projects-web/projects-web';
-import { Contact } from '../contact/contact';
+import { Contact } from '../contact';
 
 export interface NavigationProps {
     className?: string;
