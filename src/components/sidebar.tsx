@@ -27,7 +27,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
             <div className='flex flex-col justify-center border border-white h-screen m-3'>
                 <div className='flex flex-col justify-center border border-white h-full m-2'>
                     <h1 className='flex text-white text-2xl m-5 text-center justify-center'>Aseem Ratha</h1>
-                    <nav className='flex flex-col m-auto mt-[36vh] ml-16 text-lg'>
+                    <nav className='flex flex-col m-auto mt-[36vh] w-20 text-lg'>
                         <Link className='flex justify-left' onMouseEnter={toggleDrawHome} onMouseLeave={toggleDrawHome} to="/">
                             <div className={`flex border ${drawHome ? 'h-5' : 'h-0'} mt-auto mr-1 mb-auto transition-all`}></div>
                             <button className='hover:pl-2 transition-all'>Home</button>
