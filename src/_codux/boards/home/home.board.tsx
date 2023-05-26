@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { Home } from '../../../components/home/home';
+import { Home } from '../../../components/home';
 
 export default createBoard({
     name: 'Home',
