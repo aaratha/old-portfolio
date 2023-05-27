@@ -12,7 +12,7 @@ function App() {
         <MemoryRouter>
             <div className="flex flex-col md:flex-row font-nice-600">
                 <Sidebar />
-                <div className="inshad flex md:w-[85%] h-[88vh] md:h-screen bg-white body">
+                <div className="inshad transition-shadow flex md:w-[85%] h-[88vh] md:h-screen bg-white body">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/projects" element={<Navigate to="/projects/videos" />} />

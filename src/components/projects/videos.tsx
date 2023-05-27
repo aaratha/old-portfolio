@@ -32,7 +32,7 @@ export const Videos = ({ className }: VideosProps) => {
         setCurrentImage(nextImage(currentImage));
     };
     return (
-        <div className="relative flex-row align-center border">
+        <div className="relative flex-row align-center">
             <div className="flex flex-row transition-all video-player-wrapper">
                 <iframe
                     className="w-[100%] shad transition-all video-player-iframe z-0"
