@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+    .font-messy {
+      font-family: 'Special Elite', cursive;
+    }
+    .font-nice-300 {
+        font-family: 'Cormorant Garamond', serif;
+      }
+    .font-nice-600 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+    }
+}
+
 .body {
     background-image: url('./coolbg.png');
     background-repeat: no-repeat;
