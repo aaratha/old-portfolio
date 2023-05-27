@@ -17,13 +17,21 @@ export const ProjectsVis = ({ className }: ProjectsVisProps) => {
             <h1 className={classNames('H1', styles.ProjectsLabel)}>Projects</h1>
             <div className={styles.button_array}>
                 <Link to="/projects" style={{ textDecoration: 'none' }}>
-                    <button className={classNames(styles.linkButton, styles.projButtons)}>Videos</button>
+                    <button className={classNames(styles.linkButton, styles.projButtons)}>
+                        Videos
+                    </button>
                 </Link>
                 <Link to="/projects-vis" style={{ textDecoration: 'none' }}>
-                    <button className={classNames(styles.projButtons, styles.linkButton, styles.active)}>Visuals</button>
+                    <button
+                        className={classNames(styles.projButtons, styles.linkButton, styles.active)}
+                    >
+                        Visuals
+                    </button>
                 </Link>
                 <Link to="/projects-web" style={{ textDecoration: 'none' }}>
-                    <button className={classNames(styles.projButtons, styles.linkButton)}>Websites</button>
+                    <button className={classNames(styles.projButtons, styles.linkButton)}>
+                        Websites
+                    </button>
                 </Link>
             </div>
             <span className={styles.projectPane}>

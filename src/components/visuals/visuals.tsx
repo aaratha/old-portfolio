@@ -4,7 +4,7 @@ import img1 from './PURPLE RED AND WHITE DC DELEGATE.png';
 import img2 from './FFDC LOGO 2 - FONT 2 (1).png';
 import img3 from './IMG_0026.jpg';
 import img4 from './img4.png';
-import img5 from './IMG_3971.jpg'
+import img5 from './IMG_3971.jpg';
 
 export interface VisualsProps {
     className?: string;
