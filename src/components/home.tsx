@@ -13,7 +13,7 @@ export const Home = ({ className }: HomeProps) => {
                     <h1 className=' text-2xl p-3 font-bold'>Aseem Ratha</h1>
                     <p className=' p-1 pb-5'>Washington D.C. / Toronto</p>
                     <Link to="/projects">
-                        <button className='border border-white p-1 hover:p-3 transition-all '>Explore Projects</button>
+                        <button className='border hover:bg-black border-white p-1 hover:p-3 transition-all '>Explore Projects</button>
                     </Link>
                 </div>
             </div>

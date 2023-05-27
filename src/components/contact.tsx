@@ -6,9 +6,9 @@ export interface ContactProps {
 
 export const Contact = ({ className }: ContactProps) => {
     return (
-        <div className='flex flex-col m-auto w-1/2 border items-center h-[60%] justify-center hover:w-3/5 hover:h-[70%] transition-all duration-500'>
-            <div className='flex flex-col m-auto w-1/2 items-center h-1/2 bg-black justify-center hover:w-3/5 hover:h-3/5 transition-all duration-300 bg-opacity-60 hover:bg-opacity-90 text-white'>
-                <div className='m-auto justify-center items-center'>
+        <div className='flex flex-col p-[2vw] border content-center align-center m-auto items-center justify-center hover:p-[3vw] transition-all duration-500'>
+            <div className='flex flex-col m-auto pl-[10vw] pr-[10vw] pb-[7vw] pt-[7vw] hover:pl-[12vw] hover:pr-[12vw] hover:pb-[8vw] hover:pt-[8vw] border items-center justify-center transition-all duration-500'>
+                <div className='flex flex-col m-auto p-[5vw] items-center bg-black justify-center transition-all duration-300 bg-opacity-60 hover:p-[6vw] hover:bg-opacity-80 text-white'>
                     <a href="https://www.instagram.com/aa.ratha/" style={{ textDecoration: 'none' , color: 'white'}}>
                         <div className='text-xl flex items-center justify-center mb-1'>
                             <img src={icon1} className='w-8 mr-2' />
