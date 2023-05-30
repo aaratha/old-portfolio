@@ -29,7 +29,7 @@ function App() {
                     <iframe
                             className="flex object-contain absolute translate-y-[-7vh] md:translate-y-0 top-[12vh] md:top-0 w-[220vw] md:w-[150vw] xl:w-[106vw] h-[100%] z-[0] overflow-hidden"
                             src="https://www.youtube.com/embed/TBMEBSfnJbQ?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&end=51&start=5&playlist=TBMEBSfnJbQ"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"
+                            allow="autoplay; encrypted-media;"
                     ></iframe>
                 </div>
             </div>
