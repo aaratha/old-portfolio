@@ -16,6 +16,13 @@ module.exports = {
       'lg': '1024px',
       'xl': '1200px',
     },
+    extend: {
+      colors: {
+        'primary': '#FFD6A8',
+        'secondary': '#0d0703',
+        'tertiary': '#ad7248',
+      },
+    },
   },
   plugins: [],
 }

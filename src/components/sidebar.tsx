@@ -23,10 +23,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
     };
 
     return (
-        <div className="flex flex-col text-white bg-black md:left-0 h-[12vh] md:h-screen md:w-[15%] m-autop">
-            <div className="flex flex-row md:flex-col justify-center  border-white md:h-screen">
-                <div className="border p-2 flex flex-col w-full md:w-auto justify-between md:justify-center border-white md:h-full m-2">
-                    <h1 className="flex text-white text-lg lg:text-2xl md:m-5 text-center justify-center">
+        <div className="flex flex-col bg-secondary md:left-0 h-[12vh] md:h-screen md:w-[15%] m-autop">
+            <div className="flex flex-row md:flex-col justify-center  border-primary md:h-screen">
+                <div className="border p-2 flex flex-col w-full md:w-auto justify-between md:justify-center inshad2 border-primary md:h-full m-3">
+                    <h1 className="flex text-lg lg:text-2xl md:m-5 text-center justify-center">
                         Aseem Ratha
                     </h1>
                     <nav className="flex justify-between md:flex-col m-auto md:mt-[36vh] w-full md:w-auto text-lg">
@@ -37,7 +37,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                             to="/"
                         >
                             <div
-                                className={`flex border ${
+                                className={`flex border border-primary ${
                                     drawHome ? 'h-5' : 'h-0'
                                 } mt-auto mr-1 mb-auto transition-all`}
                             ></div>
@@ -50,7 +50,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                             to="/projects"
                         >
                             <div
-                                className={`flex border ${
+                                className={`flex border border-primary ${
                                     drawProjects ? 'h-5' : 'h-0'
                                 } mt-auto mr-1 mb-auto transition-all`}
                             ></div>
@@ -63,7 +63,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                             to="/contact"
                         >
                             <div
-                                className={`flex border ${
+                                className={`flex border border-primary ${
                                     drawContact ? 'h-5' : 'h-0'
                                 } mt-auto mr-1 mb-auto transition-all`}
                             ></div>

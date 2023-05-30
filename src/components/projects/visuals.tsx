@@ -34,7 +34,7 @@ export const Visuals: React.FC<VisualsProps> = ({ className }) => {
     return (
         <div className="m-auto relative flex-row align-center">
             <div className="w-[100%] m-auto video-player-wrapper flex flex-row transition-all">
-                <button onClick={handlePreviousImage} className="h-14 mr-2 m-auto bg-black bg-opacity-[60%] hover:bg-opacity-[100%] text-white rounded-full p-2 border hover:scale-110 hover:shadow hover:shadow-white transition-all">
+                <button onClick={handlePreviousImage} className="h-14 mr-2 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow hover:shadow-white transition-all">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
@@ -55,7 +55,7 @@ export const Visuals: React.FC<VisualsProps> = ({ className }) => {
                     src={images[currentImage]}
                     title={`Web page ${currentImage}`}
                 />
-                <button onClick={handleNextImage} className="ml-2 h-14 m-auto bg-black bg-opacity-[60%] hover:bg-opacity-[100%] text-white rounded-full p-2 border hover:scale-110 hover:shadow hover:shadow-white transition-all">
+                <button onClick={handleNextImage} className="ml-2 h-14 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow hover:shadow-white transition-all">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"

@@ -16,6 +16,10 @@
 }
 /*background-image: url('./coolbg2.png');*/
 .body {
+<<<<<<< HEAD
+=======
+  background-image: url('./coolbg3.png');
+>>>>>>> b21bdd0db5aeb50654917147e9b75795e12e0b62
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,6 +31,11 @@
 .inshad {
   box-shadow: inset 10px 0px 18px -15px #ffffff;
 }
+
+.inshad2 {
+  box-shadow: inset 0px 0px 20px -7px #ffffff;
+}
+
 .inshadsm {
   box-shadow: inset 0px 10px 18px -15px #ffffff;
 }
