@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.b3c260cb.css",
-    "main.js": "./static/js/main.7a0562cc.js",
+    "main.css": "./static/css/main.9779f857.css",
+    "main.js": "./static/js/main.94805c9f.js",
     "static/js/496.f41f6716.chunk.js": "./static/js/496.f41f6716.chunk.js",
     "static/media/coolbg3.png": "./static/media/coolbg3.67fdc3754dd2ceffb9da.png",
     "static/media/img4.png": "./static/media/img4.cbb1a5c32e2d06fcfbcf.png",
@@ -11,15 +11,15 @@
     "static/media/PURPLE RED AND WHITE DC DELEGATE.png": "./static/media/PURPLE RED AND WHITE DC DELEGATE.b8af40595260147d5e12.png",
     "static/media/FFDC LOGO 2 - FONT 2 (1).png": "./static/media/FFDC LOGO 2 - FONT 2 (1).0f3d907208e0834ea01c.png",
     "static/media/image2.png": "./static/media/image2.596c7782dd5c59432192.png",
-    "static/media/mail-2-svgrepo-com.svg": "./static/media/mail-2-svgrepo-com.31f0e1c9dba94691b9d1f5c4027573e8.svg",
-    "static/media/icons8-instagram.svg": "./static/media/icons8-instagram.8b3b665946b0683cedfeb527c42e3e14.svg",
+    "static/media/mail-2-svgrepo-com.svg": "./static/media/mail-2-svgrepo-com.d1337733822f816ea793c9d0c3c72120.svg",
+    "static/media/icons8-instagram.svg": "./static/media/icons8-instagram.4e9d5962f77dc502ce98904fd6072ab3.svg",
     "index.html": "./index.html",
-    "main.b3c260cb.css.map": "./static/css/main.b3c260cb.css.map",
-    "main.7a0562cc.js.map": "./static/js/main.7a0562cc.js.map",
+    "main.9779f857.css.map": "./static/css/main.9779f857.css.map",
+    "main.94805c9f.js.map": "./static/js/main.94805c9f.js.map",
     "496.f41f6716.chunk.js.map": "./static/js/496.f41f6716.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c260cb.css",
-    "static/js/main.7a0562cc.js"
+    "static/css/main.9779f857.css",
+    "static/js/main.94805c9f.js"
   ]
 }
