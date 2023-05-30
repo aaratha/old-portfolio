@@ -10,7 +10,7 @@ import { Projects } from './components/projects';
 function App() {
     return (
         <MemoryRouter>
-            <div className="flex flex-col md:flex-row font-nice-600">
+            <div className="text-primary flex flex-col md:flex-row font-nice-600">
                 <Sidebar />
                 <div className="inshad transition-shadow flex md:w-[85%] h-[88vh] md:h-screen bg-white body">
                     <Routes>
