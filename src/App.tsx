@@ -10,10 +10,11 @@ import { Projects } from './components/projects';
 function App() {
     return (
         <MemoryRouter>
-            <div className="text-primary flex flex-col md:flex-row font-nice-600">
+            <script src="https://www.youtube.com/iframe_api"></script>
+            <div className="text-primary flex flex-col md:flex-row font-nice-600 z-[2]">
                 <Sidebar />
                 <div className="inshad transition-shadow flex md:w-[85%] h-[88vh] md:h-screen bg-white body">
-                    <div className='z-[1] flex m-auto'>
+                    <div className='z-[1] flex m-auto w-full h-full'>
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/projects" element={<Navigate to="/projects/videos" />} />
@@ -26,9 +27,9 @@ function App() {
                         </Routes>
                     </div>
                     <iframe
-                            className="absolute w-[85%] h-screen z-[0]"
-                            src="https://www.youtube.com/embed/TBMEBSfnJbQ?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=2&controls=0&end=51&start=5"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            className="flex object-contain absolute translate-y-[-7vh] md:translate-y-0 top-[12vh] md:top-0 w-[220vw] md:w-[150vw] xl:w-[106vw] h-[100%] z-[0]"
+                            src="https://www.youtube.com/embed/TBMEBSfnJbQ?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&end=51&start=5&playlist=TBMEBSfnJbQ"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"
                     ></iframe>
                 </div>
             </div>
