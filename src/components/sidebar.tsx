@@ -25,7 +25,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
     return (
         <div className="flex flex-col bg-secondary md:left-0 h-[12vh] md:h-screen md:w-[15%] m-autop">
             <div className="flex flex-row md:flex-col justify-center  border-primary md:h-screen">
-                <div className="border p-2 flex flex-col w-full md:w-auto justify-between md:justify-center border-primary md:h-full m-3">
+                <div className="border p-2 flex flex-col w-full md:w-auto justify-between md:justify-center inshad2 border-primary md:h-full m-3">
                     <h1 className="flex text-lg lg:text-2xl md:m-5 text-center justify-center">
                         Aseem Ratha
                     </h1>

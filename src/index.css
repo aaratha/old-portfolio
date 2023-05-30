@@ -28,6 +28,11 @@
 .inshad {
   box-shadow: inset 10px 0px 18px -15px #ffffff;
 }
+
+.inshad2 {
+  box-shadow: inset 0px 0px 20px -7px #ffffff;
+}
+
 .inshadsm {
   box-shadow: inset 0px 10px 18px -15px #ffffff;
 }
