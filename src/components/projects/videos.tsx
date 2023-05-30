@@ -51,7 +51,7 @@ export const Videos = ({ className }: VideosProps) => {
                     </svg>
                 </button>
                 <iframe
-                    className="border rounded-2xl w-[100%] shad transition-all video-player-iframe z-0"
+                    className="border rounded-2xl w-[72%] shad transition-all video-player-iframe z-0"
                     src={images[currentImage]}
                     title={`Web page ${currentImage}`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
