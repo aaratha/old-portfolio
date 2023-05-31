@@ -2,7 +2,7 @@ import { Routes, Route, MemoryRouter, Router, BrowserRouter, Navigate } from 're
 import { Home } from './components/home';
 import { Sidebar } from './components/sidebar';
 import { Videos } from './components/projects/videos';
-import { ProjectsWeb } from './components/projects-web/projects-web';
+import { Websites } from './components/projects/websites';
 import { Visuals } from './components/projects/visuals';
 import { Contact } from './components/contact';
 import { Projects } from './components/projects';
@@ -21,7 +21,7 @@ function App() {
                             <Route path="/projects/" element={<Projects />}>
                                 <Route path="/projects/videos" element={<Videos />} />
                                 <Route path="/projects/visuals" element={<Visuals />} />
-                                <Route path="/projects/websites" element={<ProjectsWeb />} />
+                                <Route path="/projects/websites" element={<Websites />} />
                             </Route>
                             <Route path="/contact" element={<Contact />} />
                         </Routes>

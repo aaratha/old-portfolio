@@ -1,17 +1,19 @@
-import classNames from 'classnames';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import img1 from './websites/image.png';
+import img2 from './websites/web2.png';
 
-const images = [
-    'https://www.youtube.com/embed/TBMEBSfnJbQ',
-    'https://www.youtube.com/embed/TybreaCetEA',
-    'https://www.youtube.com/embed/OcpRc_LU-e0',
-    'https://www.youtube.com/embed/buUa9jiD9os',
-    'https://www.youtube.com/embed/GSU93sFdRls',
-];
-
-export interface VideosProps {
+export interface WebsitesProps {
     className?: string;
 }
+
+const images = [
+    img1, img2
+];
+
+const refs = [
+    'https://www.wec.education/',
+    'https://aaratha.github.io/'
+];
 
 export const previousImage = (currentImage: number) => {
     return (currentImage - 1 + images.length) % images.length;
@@ -21,7 +23,7 @@ export const nextImage = (currentImage: number) => {
     return (currentImage + 1) % images.length;
 };
 
-export const Videos = ({ className }: VideosProps) => {
+export const Websites: React.FC<WebsitesProps> = ({ className }) => {
     const [currentImage, setCurrentImage] = useState(0);
 
     const handlePreviousImage = () => {
@@ -32,9 +34,9 @@ export const Videos = ({ className }: VideosProps) => {
         setCurrentImage(nextImage(currentImage));
     };
     return (
-        <div className="relative flex-row align-center">
-            <div className="flex flex-row transition-all video-player-wrapper">
-                <button onClick={handlePreviousImage} className="h-14 mr-2 ml-0 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow-1 hover:shadow-tertiary transition-all">
+        <div className="m-auto relative flex-row align-center">
+            <div className="w-[100%] m-auto video-player-wrapper flex flex-row transition-all ">
+                <button onClick={handlePreviousImage} className="h-14 mr-2 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow-1 hover:shadow-tertiary transition-all">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
@@ -50,15 +52,16 @@ export const Videos = ({ className }: VideosProps) => {
                         />
                     </svg>
                 </button>
-                <iframe
-                    className="border border-tertiary min-w-0 rounded-2xl w-full shadow-1 shadow-tertiary transition-all video-player-iframe z-0"
-                    src={images[currentImage]}
-                    title={`Web page ${currentImage}`}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-                    sandbox="allow-scripts allow-same-origin"
-                    allowFullScreen
-                />
-                <button onClick={handleNextImage} className="ml-2 mr-0 h-14 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow-1 hover:shadow-tertiary transition-all">
+                <div className='bg-black border-tertiary bg-opacity-50 w-full h-full border overflow-scroll rounded-2xl shadow-1 shadow-tertiary transition-all z-0'>
+                    <a href={refs[currentImage]}>
+                        <img
+                            className="border-tertiary mt-9 mb-9 hover:mt-0 hover:mb-0 hover:w-full m-auto max-h-[70vh] w-[90%] border overflow-scroll rounded-2xl shadow-1 shadow-tertiary transition-all duration-300 z-0"
+                            src={images[currentImage]}
+                            title={`Web page ${currentImage}`}
+                        />
+                    </a>
+                </div>
+                <button onClick={handleNextImage} className="ml-2 h-14 m-auto bg-secondary bg-opacity-[60%] hover:bg-opacity-[100%] rounded-full p-2 hover:scale-110 hover:shadow-1 hover:shadow-tertiary transition-all">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
