@@ -55,7 +55,7 @@ export const Websites: React.FC<WebsitesProps> = ({ className }) => {
                 <div className='bg-black border-tertiary bg-opacity-50 w-full h-full border overflow-scroll rounded-2xl shadow-1 shadow-tertiary transition-all z-0'>
                     <a href={refs[currentImage]}>
                         <img
-                            className="border-tertiary mt-[4vh] mb-[4vh] hover:mt-0 hover:mb-0 hover:w-full m-auto max-h-[70vh] w-[90%] border overflow-scroll rounded-2xl shadow-1 shadow-tertiary transition-all duration-300 z-0"
+                            className="border-tertiary mt-[6%] mb-[6%] hover:mt-0 hover:mb-0 hover:w-full m-auto max-h-[70vh] w-[90%] border overflow-scroll rounded-2xl shadow-1 shadow-tertiary transition-all duration-300 z-0"
                             src={images[currentImage]}
                             title={`Web page ${currentImage}`}
                         />
