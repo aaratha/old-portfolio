@@ -23,7 +23,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
     };
 
     return (
-        <div className="flex flex-col top-0 z-[2] bg-secondary md:left-0 h-[12vh] md:h-screen md:w-[15%] shadow-1 shadow-tertiary">
+        <div className="flex flex-col z-[2] bg-secondary md:left-0 h-[12%] md:h-screen md:w-[15%] shadow-1 shadow-tertiary">
             <div className="flex flex-row md:flex-col justify-center  border-primary md:h-screen">
                 <div className="border p-2 h-[9.3vh] flex flex-col w-full md:w-auto justify-between md:justify-center inshad2 border-primary md:h-full m-3">
                     <h1 className="flex text-lg lg:text-2xl md:m-5 text-center justify-center">

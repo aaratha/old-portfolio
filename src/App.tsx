@@ -11,9 +11,9 @@ function App() {
     return (
         <MemoryRouter>
             <script src="https://www.youtube.com/iframe_api"></script>
-            <div className="text-primary flex flex-col-reverse md:flex-row font-nice-600 z-[2]">
+            <div className="text-primary flex flex-col-reverse md:flex-row w-screen h-full font-nice-600 z-[2]">
                 <Sidebar />
-                <div className="transition-shadow flex md:w-[85%] h-[88vh] md:h-screen bg-white body">
+                <div className="transition-shadow flex md:w-[85%] h-[88%] md:h-screen bg-white body">
                     <div className='z-[1] flex m-auto w-full h-full'>
                         <Routes>
                             <Route path="/" element={<Home />} />
