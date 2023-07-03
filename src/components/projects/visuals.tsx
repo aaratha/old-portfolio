@@ -2,15 +2,19 @@ import React, { useState } from 'react';
 import img1 from './visuals/PURPLE RED AND WHITE DC DELEGATE.png';
 import img2 from './visuals/FFDC LOGO 2 - FONT 2 (1).png';
 import img3 from './visuals/IMG_0026.jpg';
-import img4 from './visuals/img4.png';
-import img5 from './visuals/IMG_3971.jpg';
+import img4 from './visuals/IMG_4481-01.jpeg';
+import img5 from './visuals/IMG_4485-01.jpeg';
+import img6 from './visuals/IMG_20230612_124540_842.jpg';
+import img7 from './visuals/IMG_20230612_124541_150.jpg';
+import img8 from './visuals/img4.png';
+import img9 from './visuals/IMG_3971.jpg';
 
 export interface VisualsProps {
     className?: string;
 }
 
 const images = [
-    img1, img2, img3, img4, img5
+    img1, img2, img3, img4, img5, img6, img7, img8, img9
 ];
 
 export const previousImage = (currentImage: number) => {
